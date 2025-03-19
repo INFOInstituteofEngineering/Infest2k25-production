@@ -8,12 +8,12 @@ import googlehunt from "./Event/Tech/google.jpg";
 import webmaster from "./Event/Tech/web.jpg";
 
 //MBA Images
-import adzap from "../assets/Event/Mba/adzap.jpg";
-import best_manager from "../assets/Event/Mba/best_manager.jpg";
-import business_quiz from "../assets/Event/Mba/business_quiz.jpg";
-import corporate_walk from "../assets/Event/Mba/corporate_walk.jpg";
-import corporate_stall from "../assets/Event/Mba/corporate_stall.jpg";
-import treasure_hunt from "../assets/Event/Mba/treasure_hunt.jpg";
+import adzap from "../assets/Event/MBA/adzap.jpg";
+import best_manager from "../assets/Event/MBA/best_manager.jpg";
+import business_quiz from "../assets/Event/MBA/business_quiz.jpg";
+import corporate_walk from "../assets/Event/MBA/corporate_walk.jpg";
+import corporate_stall from "../assets/Event/MBA/corporate_stall.jpg";
+import treasure_hunt from "../assets/Event/MBA/treasure_hunt.jpg";
 
 //Mech Images
 import cad_master from "../assets/Event/Mech/cad_master.jpg";
