@@ -28,12 +28,12 @@ import t_connection from "./Event/Electrical/tech_connection.jpg";
 import t_hunt from "./Event/Electrical/treasure_hunt.jpg";
 
 //SH Images
-import funquiz from "./Event/SH/funquiz.jpg";
-import debate from "./Event/SH/debate.jpg";
-import math_puzzles from "./Event/SH/math_puzzles.jpg";
-import mime from "./Event/SH/mime.jpg";
-import pencil_sketch from "./Event/SH/pencil_sketch.jpg";
-import singing from "./Event/SH/singing.jpg";
+import funquiz from "./Event/Sh/funquiz.jpg";
+import debate from "./Event/Sh/debate.jpg";
+import math_puzzles from "./Event/Sh/math_puzzles.jpg";
+import mime from "./Event/Sh/mime.jpg";
+import pencil_sketch from "./Event/Sh/pencil_sketch.jpg";
+import singing from "./Event/Sh/singing.jpg";
 
 //Shades
 import topshade from "./Event/topshade.png";
