@@ -71,7 +71,7 @@ const Footer = () => {
               </div>
               <div>
                 <h1 className=" font-bold">IT</h1>
-                <p className=" text-gray-400">Mr. S. Shivashankaran</p>
+                <p className=" text-gray-400">Mr. R. Sivashankaran</p>
                 <Link to={"tel:+916384048586"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 6384048586</Link>
               </div>
               <div>
