@@ -60,7 +60,7 @@ const EventDetailsComponent = ({ title, desc, img, rules, criteria, mobile, coor
         </div>
 
         <div className=" py-[7px] px-[15px] md:mt-[5%] text-[14px] rounded-[5px] font-bold text-white bg-blue-500 cursor-pointer hover:shadow-xl mr-[10%]">
-          <Link to={'https://forms.gle/8A84MnzFomM9vJEV7'}>Register Now</Link>
+          <Link to={'https://infest-2k25-registration-page.vercel.app/'}>Register Now</Link>
         </div>
       </div>
 
