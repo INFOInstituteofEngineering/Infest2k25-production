@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Code", monospace;
+    background-color: #f9f9f9;
+    color: #0f172a;
+    scroll-behavior: smooth;
+}
+
+.custom-truncate{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3; /* Number of lines to show */
+    line-clamp: 3; /* Standard property for compatibility */
+}
+
+.blur-background{
+    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+}
+
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider {
+    
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+    border: none; 
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.slider .slide-track {
+    animation: scrollrl 20s linear infinite;
+    display: flex;
+    width: calc(250px * 13);
+}
+
+.slider .slide {
+    height: 100px;
+    width: 250px;
+}
+
+@keyframes scrollrl {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 11));
+    }
+}
+
+
+@keyframes scrolllr {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(250px * 5));
+    }
+}
