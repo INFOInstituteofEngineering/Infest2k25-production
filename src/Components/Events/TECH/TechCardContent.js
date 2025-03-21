@@ -145,7 +145,7 @@ const TechCardContent = [{
     {
         id: 6,
         img: game,
-        coordinator: "M.Raja AP/IT, Mr. Mohankumar AP/CSE",
+        coordinator: "Mr. M.Raja AP/IT, Mr. Mohankumar AP/CSE",
         studentCoordinator: "Mr. Rohith 3rd CSE",
         email: "infest2k25cse@gmail.com",
         stdmobile: "9626490046",
