@@ -38,7 +38,7 @@ const TechCardContent = [{
     {
         id: 2,
         img: projecpresentation,
-        coordinator: "Dr.Loganathan HoD/IT",
+        coordinator: "Mr. M. Nagarajan AP/CSE, Mr. Arockia Selvaraj AP/IT",
         studentCoordinator: "Mr.Ajay 3rd IT",
         email: "infest2k25cse@gmail.com",
         stdmobile: "9789413779",
@@ -60,7 +60,7 @@ const TechCardContent = [{
     {
         id: 3,
         img: googlehunt,
-        coordinator: "A.Saranya AP/CSE",
+        coordinator: "A.Saranya AP/CSE, Mrs.R.S.Gayathri AP/AI & DS",
         studentCoordinator: "Ms. Sri Dharshana 3rd CSE",
         email: "infest2k25cse@gmail.com",
         stdmobile: "9003698188",
@@ -90,7 +90,7 @@ const TechCardContent = [{
     {
         id: 4,
         img: crashcode,
-        coordinator: "P.Sundari AP/IT",
+        coordinator: "P.Sundari AP/IT, Ms. T. Shampavi AP/AI & DS",
         studentCoordinator: "Mr. Hameshwar 3rd IT",
         email: "infest2k25cse@gmail.com",
         stdmobile: "8072714569",
@@ -117,7 +117,7 @@ const TechCardContent = [{
     {
         id: 5,
         img: webmaster,
-        coordinator: "R.Saranya Lec/CSE",
+        coordinator: "R.Saranya AP/CSE, Mr. K. Madeswaran AP/IT",
         studentCoordinator: "Ms.Elavarasi 3rd CSE",
         email: "infest2k25cse@gmail.com",
         mobile: "9003650974",
@@ -145,7 +145,7 @@ const TechCardContent = [{
     {
         id: 6,
         img: game,
-        coordinator: "M.Raja AP/IT",
+        coordinator: "M.Raja AP/IT, Mr. Mohankumar AP/CSE",
         studentCoordinator: "Mr. Rohith 3rd CSE",
         email: "infest2k25cse@gmail.com",
         stdmobile: "9626490046",
