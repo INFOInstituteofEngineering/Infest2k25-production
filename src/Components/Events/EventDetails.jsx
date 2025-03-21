@@ -100,7 +100,7 @@ const EventDetailsComponent = ({ title, desc, img, rules, criteria, mobile, coor
       <div className=" flex flex-col items-center border gap-[5%] px-[4%] py-[2%] w-[90%] bg-gray-100 my-[2%] mt-[3%] mx-auto justify-center">
 
         
-        <div className=" flex flex-row gap-2 items-start font-bold text-[20px]">
+        <div className=" flex flex-col gap-2 items-start font-bold text-[20px]">
           <h1> Coordinator :</h1>
           <h1>{coordinator}</h1>
         </div>

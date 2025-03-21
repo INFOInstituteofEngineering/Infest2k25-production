@@ -10,7 +10,7 @@ import {
 const TechCardContent = [{
         id: 1,
         img: paperpresentation,
-        coordinator: " Dr.Sangeetha HoD/AI & DS",
+        coordinator: " Dr.Sangeetha HoD/AI & DS, Dr.D.Loganathan HoD/IT",
         studentCoordinator: "Mr. Samson Durai 3rd IT",
         email: "infest2k25cse@gmail.com",
         stdmobile: "9629110972",
