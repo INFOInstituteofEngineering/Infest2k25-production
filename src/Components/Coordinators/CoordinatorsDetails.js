@@ -21,7 +21,7 @@ const Coordinators1 = [
     { name: "Vaitheeshwaran S", image: Avatar },//yes
     { name: "Logeshwaran L", image: Avatar },//yes
     { name: "Anu M", image: Avatar },//yes
-    { name: "Sangeerthana", image: Avatar },//yes
+    { name: "Syed Aswan", image: Avatar },//yes
     
     
     
@@ -47,7 +47,7 @@ const Coordinators2 = [
     { name: "Yageshwaran N", image: Avatar },//yes
     { name: "Sham J", image: Avatar },//yes
     { name: "Meganathan V", image: Avatar },//yes
-    { name: "Prasanna", image: Avatar },//yes
+    { name: "Prasanna T", image: Avatar },//yes
 
     
 
