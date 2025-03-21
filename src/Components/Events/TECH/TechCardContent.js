@@ -39,7 +39,7 @@ const TechCardContent = [{
         id: 2,
         img: projecpresentation,
         coordinator: "Mr. M. Nagarajan AP/CSE, Mr. Arockia Selvaraj AP/IT",
-        studentCoordinator: "Mr.Ajay 3rd IT",
+        studentCoordinator: "Mr.N J Ajayvetri  3rd IT",
         email: "infest2k25cse@gmail.com",
         stdmobile: "9789413779",
         mobile: "9942973200",
