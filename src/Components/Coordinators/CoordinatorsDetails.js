@@ -21,6 +21,7 @@ const Coordinators1 = [
     { name: "Vaitheeshwaran S", image: Avatar },//yes
     { name: "Logeshwaran L", image: Avatar },//yes
     { name: "Anu M", image: Avatar },//yes
+    { name: "Sangeerthana", image: Avatar },//yes
     
     
     
@@ -46,6 +47,8 @@ const Coordinators2 = [
     { name: "Yageshwaran N", image: Avatar },//yes
     { name: "Sham J", image: Avatar },//yes
     { name: "Meganathan V", image: Avatar },//yes
+    { name: "Prasanna", image: Avatar },//yes
+
     
 
 ]
@@ -59,7 +62,7 @@ const Coordinators3 = [
     { name: "Sivanesh R", image: Avatar },//yes
     { name: "Gopinath D", image: Avatar },//yes
     { name: "Suryaprakash P", image: Avatar },//yes
-    { name: " Vishwa R", image: Avatar },//yes
+    { name: "Vishwa R", image: Avatar },//yes
     { name: "Ajish E", image: Avatar },//yes
     { name: "Somesh R", image: Avatar },//yes
     { name: "Dharun S", image: Avatar },//yes
@@ -71,6 +74,8 @@ const Coordinators3 = [
     { name: "Prasanth K", image: Avatar },//yes
     { name: "Sridharan M", image: Avatar },//yes
     { name: "Senthilmurugan S", image: Avatar },//yes
+    { name: "Somesh", image: Avatar },//yes
+
     
    
 ]
