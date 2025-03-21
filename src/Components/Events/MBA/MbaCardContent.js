@@ -111,11 +111,11 @@ const MbaCardContent = [
         email: "infest2k25mba@gmail.com",
         stdmobile: "9361228275",
         eventTitle: "Corporate Walk",
-        eventDesc: "A well-tied tie is the first serious step in life, so tuck in your best shirt and suit up because it’s time to show off in corporate style.",
+        eventDesc: "A Corporate Walk is a professionally organized walking event designed for business professionals, employees, and corporate teams to promote health, wellness, and team bonding. It often takes place in urban areas, business districts, or scenic parks, encouraging networking, stress relief, and an active lifestyle. These walks may be part of wellness programs, charity initiatives, or team-building activities, fostering a positive work culture and employee engagement.",
 rules: [
     "Eligibility: Open to employees, corporate teams, and professionals as per event guidelines.",
     "Registration: All participants must register before the deadline.",
-    "Attire: Formal or business casual attire is recommended.",
+    "Attire: Formal,Semi-formal or theme based attire as specified as organizers.",
     "Punctuality: Participants must arrive 15 minutes before the scheduled time.",
     "Conduct: Professional behavior is expected throughout the event.",
     "Health and Safety: Participants should inform the organizers of any health concerns.",
@@ -139,19 +139,13 @@ criteria: [
         email: "infest2k25mba@gmail.com",
         stdmobile: "6374833136",
         eventTitle: "Corporate stall [Only Eligible for INFO STUDENTS ] ",
-        eventDesc: "It is a game in which each person or team attempts to be first in finding something that has been given, using written directions or clues.",
+        eventDesc: "ONLY INFO STUDENTS ARE ELIGIBLE",
         rules: [
-            "Maximum 6 members per team / Maximum 2 teams from a college",
-            "Duration 45 minutes with 2 rounds.",
-            "The Treasure Hunt consists of five clues, each one leading to the next clue.",
-            "The clues are to be found in a particular order. A team cannot skip a clue. Skipping a clue leads to the disqualification of the team.",
-            "Do not search for clues in off-limit areas.",
-            "If participants find another team’s clue by any chance they are not supposed to tamper with it. A violation of this rule could cause disqualification of the team.",
-            "Round 1: All team participation. The winners of first 10 teams will be taken to round 2",
-            "Round 2: 10 teams will be participating out of which the first 3 clue founders are winners."
+        
+        "ONLY INFO STUDENTS ARE ELIGIBLE",
         ],
         criteria: [
-            "Total clues must be handed over to the co-ordinator along with the treasure."
+            "Only INFO students are eligible to participate in this event."
         ]
     },
     {

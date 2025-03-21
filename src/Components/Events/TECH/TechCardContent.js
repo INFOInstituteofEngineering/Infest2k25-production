@@ -151,22 +151,22 @@ const TechCardContent = [{
         stdmobile: "9626490046",
         mobile: "9994160955",
         eventTitle: "Gaming",
-        eventDesc: "Join us for an exhilarating day where gamers of all levels come together to celebrate their passion for gaming! Test your skills in popular games such as Valorant, Freefire, and PUBG. Prizes await the top players!",
+        eventDesc: "Join us for an exhilarating day where gamers of all levels come together to celebrate their passion for gaming! Test your skills in popular games such as 'Freefire' and 'BGMI'. Prizes await the top players!",
         rules: [
             "No. of Rounds : 2",
-            "Round 1 is MCQ and Round 2 is Debugging and Problem Solving.",
-            "Round 1 Duration is 20 Mins and Round 2 Duration is 30 Mins.",
-            "Any Programming language is allowed to solve the problems.",
-            "All rounds will be conducted in Hackerrank, etc.",
-            "Mobile Phone is not allowed.",
-            "Switching tabs are stricly prohibited.",
+            "No modded apps are allowed.",
+            "External hacks are prohibited.",
+            "Any form of cheating, hacking or exploting of game bugs is prohibited.",
+            "Players must adhere to game's offical rules and guidelines as specified by the develpoers.",
+            "Voilating the rules will lead to disqualification.",
             "Plagarism is prohibited.",
+            "Players are required to bring their own devices",
         ],
         criteria: [
-            "Problem Solving Skills.",
+            "The winning palyers will be determined by scores(eg:kills, points,etc.)",
             "Coding Proficiency.",
             "Innovation and Optimization.",
-            "Adaptability and Resilence."
+            "Adaptability and Resilence.",
         ]
     },
 ];
