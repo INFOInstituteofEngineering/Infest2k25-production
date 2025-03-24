@@ -223,9 +223,9 @@ const ShCardContent = [
     mobile: "8870114049",
     eventTitle: "Drama or Mime",
     eventDesc:
-      "Web Master is an event where the participants have to express their web development skills by creating a website with given requirements.",
+      "Experience the power of performance in our Drama and Mime Competition! Contestants will compete in two categories: Drama, showcasing acting skills and storytelling through dialogue, and Mime, telling stories through gestures and expressions without words. This event celebrates creativity, imagination, and the art of performance, with judges looking for emotional depth, originality, and audience engagement. Don’t miss out on this captivating showcase of talent",
     rules: [
-      "RULES FOR MINE:",
+      "RULES FOR MIME:",
       "Each team can have 6-8 members.",
       "The Duration of play must not exceed 10 -12 Minutes.",
       "Negative points for exceeding the time.",
