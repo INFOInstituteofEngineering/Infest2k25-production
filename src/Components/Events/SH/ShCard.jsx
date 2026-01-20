@@ -42,7 +42,7 @@ const ShCard = () => {
               </p>
               
               <Link to={`/event/sh/${content.eventTitle}`} className="text-[13px] text-center flex items-center font-bold  w-[60%] p-3 rounded-[2px] bg-white cursor-pointer hover:bg-transparent hover:border border-gray-500 hover:shadow-lg">
-                Register Now&#160;
+                About&#160;
                 <Register />
               </Link>
             </div>

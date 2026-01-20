@@ -44,12 +44,12 @@ const EventDetailsComponent = ({ title, desc, img, rules, criteria, mobile, coor
           <div className=" flex flex-col gap-3 md:gap-4 text-[12px]  text-gray-500">
             <div className=" flex flex-row gap-2">
               <p className=" uppercase font-bold ">starts on :</p>
-              <p>March 28,2025 9:00 AM (IST)</p>
+              <p>February 20,2026 9:00 AM (IST)</p>
             </div>
 
             <div className=" flex flex-row gap-2">
               <p className=" uppercase font-bold ">ends on :</p>
-              <p>March 28,2025 4:00 PM (IST)</p>
+              <p>February 20,2026 4:30 PM (IST)</p>
             </div>
 
             <div className=" flex flex-row gap-2">
@@ -59,9 +59,7 @@ const EventDetailsComponent = ({ title, desc, img, rules, criteria, mobile, coor
           </div>
         </div>
 
-        <div className=" py-[7px] px-[15px] md:mt-[5%] text-[14px] rounded-[5px] font-bold text-white bg-blue-500 cursor-pointer hover:shadow-xl mr-[10%]">
-          <Link to={'https://infest2k25registration-page-india.vercel.app/'}>Register Now</Link>
-        </div>
+        
       </div>
 
       <div className="ml-[5%] md:mt-[5%]">

@@ -4,7 +4,8 @@ import {
     t_hunt,
     circuit,
     techquiz,
-    t_connection
+    t_connection,
+    design,
 } from "../../../assets/index";
 
 const ElectricalCardContent = [{
@@ -14,7 +15,7 @@ const ElectricalCardContent = [{
     studentCoordinator: "Nandhana.N,Manimaran.B",
     mobile: "8072834729",
     stdmobile: "9894410605",
-    email: "infest2k25ece@gmail.com",
+    email: "infest2k26ece@gmail.com",
     eventTitle: "Paper Presentation",
     eventDesc: "A paper presentation is a formal way of sharing research findings, innovative ideas, or case studies with an audience in academic, professional, or technical settings. It involves presenting a well-researched paper through a structured oral talk, often supported by slides or visual aids. The goal is to communicate key insights effectively, engage the audience, and encourage discussions.  ",
     rules: [
@@ -39,7 +40,7 @@ const ElectricalCardContent = [{
         studentCoordinator: "Gagan Kailash.R,Vijay.T,Aashika.K.S",
         mobile: "9659454522",
         stdmobile: "9345783506",
-        email: "infest2k25ece@gmail.com",
+        email: "infest2k26ece@gmail.com",
         eventTitle: "Tech Connection",
         eventDesc: " The Technical Connection Event challenges participants to apply their expertise in electrical and electronics engineering through a series of interconnected tasks. Enhance participants' understanding of circuit theory and practical implementation.Develop problem-solving and teamwork skills. Encourage innovation and creativity in electrical engineering projects.Provide hands-on experience in working with electronic components and debugging techniques.",
         rules: [
@@ -71,7 +72,7 @@ const ElectricalCardContent = [{
         studentCoordinator: "Poovarasi.R,Lavanya.S",
         mobile: "9626168777",
         stdmobile: "8248125472",
-        email: "infest2k25ece@gmail.com",
+        email: "infest2k26ece@gmail.com",
         eventTitle: "Circuit Debugging",
         eventDesc: "Circuit Debugging is a technical event where participants, analyze and identify an analog electronic circuit. It tests their troubleshooting skills, circuit knowledge, and problem-solving abilities under time constraints.",
         rules: [
@@ -103,13 +104,13 @@ const ElectricalCardContent = [{
     },
     {
         id: 4,
-        img: t_hunt,
+        img: design,
         coordinator: "Mr.B.Kaviraj, AP/EEE",
         studentCoordinator: "Hariharapandian.S,Valanprakash.R,",
         mobile: "9629099432",
         stdmobile: "8610501700",
-        email: "infest2k25ece@gmail.com",
-        eventTitle: "Treasure Hunt",
+        email: "infest2k26ece@gmail.com",
+        eventTitle: "Circuit Designing",
         eventDesc: "The Treasure Hunt Round is an exciting and intellectually stimulating challenge designed to test participants' technical knowledge, problem-solving skills, and teamwork in a fun and engaging way. Participants must follow a trail of clues, solve puzzles, and complete tasks to reach the final treasure. ",
         rules: [
             "ROUND 1:",
@@ -142,7 +143,7 @@ const ElectricalCardContent = [{
         studentCoordinator: "Gagan Kailash.R",
         mobile: "9443516740",
         stdmobile: "7871896070",
-        email: "infest2k25ece@gmail.com",
+        email: "infest2k26ece@gmail.com",
         eventTitle: "Project Presentation",
         eventDesc: "Project Expo showcases student innovations through two rounds: online prelims and offline finals.Participants present projects, engage with experts, and compete for certificates and prizes. ",
         rules: [
@@ -169,7 +170,7 @@ const ElectricalCardContent = [{
         studentCoordinator: "jothimani.G IInd Year EEE , Sujeesh.M IInd Yaer EEE,",
         mobile: "9500740800",
         stdmobile: "8248082415",
-        email: "infest2k25ece@gmail.com",
+        email: "infest2k26ece@gmail.com",
         eventTitle: "Techical Quiz",
         eventDesc: "Tech Brains is a challenging and engaging technical quiz competition designed to test participants' knowledge in various engineering domains. This event aims to foster a competitive spirit while enhancing problem-solving skills, technical awareness, and innovative thinking. ",
         rules: [

@@ -4,7 +4,7 @@ import {
     cad_master,
     fun,
     mr_mechanic,
-    water_rocket
+    quiz,
 } from "../../../assets/index.js";
 
 const MechCardContent = [{
@@ -14,7 +14,7 @@ const MechCardContent = [{
         studentCoordinator: "P.Suryaprakash 3rd Mech",
         mobile: "9488831838",
         stdmobile: "9344410755",
-        email: "infest2k25mech@gmail.com",
+        email: "infest2k26mech@gmail.com",
         eventTitle: "Paper Presentation",
         eventDesc: "Paper presentation is an event where the participants are required to make a paper about a certain topic and then present it in front of a jury. ",
         rules: [
@@ -43,7 +43,7 @@ const MechCardContent = [{
         studentCoordinator: "P.Suryaprakash, R.Vishwa",
         mobile: "9488831838",
         stdmobile: "9344410755",
-        email: "infest2k25mech@gmail.com",
+        email: "infest2k26mech@gmail.com",
         eventTitle: "Project Presentation",
         eventDesc: "Project Presentation is an event where the participants are required to make a project about a certain topic and present infront of a jury.",
         rules: [
@@ -63,7 +63,7 @@ const MechCardContent = [{
         coordinator: "Mr.S.Ajith kumar AP/Mech",
         studentCoordinator: "P.Mouneesh, S.Dharun",
         mobile: "9787819069",
-        email: "infest2k25mech@gmail.com",
+        email: "infest2k26mech@gmail.com",
         stdmobile: "8610546242",
         eventTitle: "CAD Master",
         eventDesc: "For this CAD master students will be provided computer with autocad software installed and they should perform the assigned task.",
@@ -84,7 +84,7 @@ const MechCardContent = [{
         studentCoordinator: "S.Perarasu, R.Jeyasingh",
         mobile: "9042867737",
         stdmobile: "8248101617",
-        email: "infest2k25mech@gmail.com",
+        email: "infest2k26mech@gmail.com",
         eventTitle: "Fun Series",
         eventDesc: 'The students can have their fun and enjoyment in playing the series of games. Games will be an on spot event. Once you have registered you can participate in fun series games on the symposium date.',
         rules: [
@@ -99,13 +99,13 @@ const MechCardContent = [{
     },
     {
         id: 5,
-        img: water_rocket,
+        img: quiz,
         coordinator: "Mr.P.Amirthalingam AP/Mech",
         studentCoordinator: "S.R.Yeshwanth, C.Kishore, N.Dharshan",
         mobile: "7845881792",
         stdmobile: "9345534829",
-        email: "infest2k25mech@gmail.com",
-        eventTitle: "Watery Rocketry",
+        email: "infest2k26mech@gmail.com",
+        eventTitle: "Techniacal Quiz",
         eventDesc: "Water rocketry is a technical event in which students can use their ideas effectively and produce a pressurized water rocket.",
         rules: [
             "Accessories kit should be carried by their own",
@@ -123,7 +123,7 @@ const MechCardContent = [{
         studentCoordinator: "M.Akash, K.Athesh",
         mobile: "7845881792",
         stdmobile: "9585152366",
-        email: "infest2k25mech@gmail.com",
+        email: "infest2k26mech@gmail.com",
         eventTitle: "Mr.Mechanic",
         eventDesc: "This event is completely based on technical. Students are asked to identify mechanical components or to assemble the components.",
         rules: [

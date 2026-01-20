@@ -15,16 +15,17 @@ const Footer = () => {
 
             <div>
               <h1 className=" font-bold text-[20px]">Overall Coordinator</h1>
-              <p className=" pt-2 text-gray-400">Dr. G. Selvavinayagam</p>
-              <p className=" text-gray-400">Professor & Head (CSE)</p>
-              <Link to={"tel:+919865222182"} className=" flex items-center md:justify-center gap-2 text-gray-400"><Phone/>+91 9865222182</Link>
+              <p className=" pt-2 text-gray-400">Dr. J Balasubramanian</p>
+              <p className=" text-gray-400">Professor & Head (MECH)</p>
+              <Link to={"tel:+919488831838"} className=" flex items-center md:justify-center gap-2 text-gray-400"><Phone/>+91 9488831838</Link>
+              <Link to={"tel:+916380559371"} className=" flex items-center md:justify-center gap-2 text-gray-400"><Phone/>+91 6380559371</Link>
             </div>
             <div className=" flex flex-col gap-4">
               <h1 className=" font-bold text-[20px]">Faculty Coordinators</h1>
               <div>
                 <h1 className=" font-bold">CSE</h1>
-                <p className=" text-gray-400">Mrs. P. Gokila - AP/CSE</p>
-                <Link to={"tel:+917708103693"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 7708103693</Link>
+                <p className=" text-gray-400">Mrs. M. Nagarajan - AP/CSE</p>
+                <Link to={"tel:+919003372454"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 9003372454</Link>
               </div>
               <div>
                 <h1 className=" font-bold">IT</h1>
@@ -33,8 +34,8 @@ const Footer = () => {
               </div>
               <div>
                 <h1 className=" font-bold">AI & DS</h1>
-                <p className=" text-gray-400">Ms. R. S. Gayathri - AP/AI & DS</p>
-                <Link to={"tel:+918122299834"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 8122299834</Link>
+                <p className=" text-gray-400">Ms. P.K - Prakash AP/AI & DS</p>
+                <Link to={"tel:+919894495630"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 9894495630</Link>
               </div>
               <div>
                 <h1 className=" font-bold">ECE</h1>
@@ -48,8 +49,8 @@ const Footer = () => {
               </div>
               <div>
                 <h1 className=" font-bold">MECH</h1>
-                <p className=" text-gray-400">Mr. S. Imthiyas - AP/MECH</p>
-                <Link to={"tel:+919042867737"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 9042867737</Link>
+                <p className=" text-gray-400">Mr. P. Varatharajan - AP/MECH</p>
+                <Link to={"tel:+919943659947"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 9943659947</Link>
               </div>
               <div>
                 <h1 className=" font-bold">S&H</h1>
@@ -58,51 +59,51 @@ const Footer = () => {
               </div>
               <div>
                 <h1 className=" font-bold">MBA</h1>
-                <p className=" text-gray-400">Ms. K. Padmapriya - AP/MBA</p>
-                <Link to={"tel:+919361573529"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 9361573529</Link>
+                <p className=" text-gray-400">Ms. S. Sivakumar - AP/MBA</p>
+                <Link to={"tel:+919786265706"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 9786265706</Link>
               </div>
             </div>
             <div className=" flex flex-col gap-4">
               <h1 className=" font-bold text-[20px]">Student Coordinators</h1>
               <div>
                 <h1 className=" font-bold">CSE</h1>
-                <p className=" text-gray-400">Mr. S. Vaitheeshwaran</p>
-                <Link to={"tel:+918438651831"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 8438651831</Link>
+                <p className=" text-gray-400">Ms. S. Priyadharsini</p>
+                <Link to={"tel:+918122103695"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 8122103695</Link>
               </div>
               <div>
                 <h1 className=" font-bold">IT</h1>
-                <p className=" text-gray-400">Mr. R. Sivashankaran</p>
-                <Link to={"tel:+916384048586"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 6384048586</Link>
+                <p className=" text-gray-400">Mr. B. Mega Adhith</p>
+                <Link to={"tel:+916374354188"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 6374354188</Link>
               </div>
               <div>
                 <h1 className=" font-bold">AI & DS</h1>
-                <p className=" text-gray-400">Mr. S. Ajayan</p>
-                <Link to={"tel:+919629303987"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 9629303987</Link>
+                <p className=" text-gray-400">Mr. S S. Harish</p>
+                <Link to={"tel:+917418217931"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 7418217931</Link>
               </div>
               <div>
                 <h1 className=" font-bold">ECE</h1>
-                <p className=" text-gray-400">Mr. D. Gopinath</p>
-                <Link to={"tel:+919626569152"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 9626569152</Link>
+                <p className=" text-gray-400">Mr. R R. Enbaarasan</p>
+                <Link to={"tel:+917695891201"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 7695891201</Link>
               </div>
               <div>
                 <h1 className=" font-bold">EEE</h1>
-                <p className=" text-gray-400">Mr. R. Gagan Kailash</p>
-                <Link to={"tel:+917871896070"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 7871896070</Link>
+                <p className=" text-gray-400">Mr. G. Parthiban</p>
+                <Link to={"tel:+919789590071"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 9789590071</Link>
               </div>
               <div>
                 <h1 className=" font-bold">MECH</h1>
-                <p className=" text-gray-400">Mr. P. Suryaprakash</p>
-                <Link to={"tel:+919344410755"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 9344410755</Link>
+                <p className=" text-gray-400">Mr. S. Dharun</p>
+                <Link to={"tel:+918870829410"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 8870829410</Link>
               </div>
               <div>
                 <h1 className=" font-bold">S&H</h1>
-                <p className=" text-gray-400">Mr. R. Bhoomish</p>
-                <Link to={"tel:+919843797687"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 9843797687</Link>
+                <p className=" text-gray-400">Mr. S. Priyadharsan</p>
+                <Link to={"tel:+919342174096"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 9342174096</Link>
               </div>
               <div>
                 <h1 className=" font-bold">MBA</h1>
-                <p className=" text-gray-400">Ms. M. Dharani</p>
-                <Link to={"tel:+919345389360"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 9345389360</Link>
+                <p className=" text-gray-400">Ms. P. Vinothkumar</p>
+                <Link to={"tel:+919677790344"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 9677790344</Link>
               </div>
             </div>
           </div>

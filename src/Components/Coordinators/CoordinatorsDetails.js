@@ -1,16 +1,16 @@
 import Avatar from '../../assets/Coordinators/avatar.png'
 
 const Coordinators1 = [
-    { name: "Sri Dharshana", image: Avatar },//yes
-    { name: "Elavarasi", image: Avatar },//yes
-    { name: "Nandhana N", image: Avatar },//yes
-    { name: "Aashika K S", image: Avatar },//yes
-    { name: "Poovarasi R", image: Avatar },//yes
-    { name: "Ramana A", image: Avatar },//yes
-    { name: "Lavanya S", image: Avatar },//yes
-    { name: "Deepajothy", image: Avatar },//yes
-    { name: "Abijith J", image: Avatar },//yes
-    { name: "Akilesh S", image: Avatar },//yes
+    { name: "Ajayan", image: Avatar },//yes
+    { name: "Harshini ", image: Avatar },//yes
+    { name: "Arputhavali", image: Avatar },//yes
+    { name: "Srivarshini", image: Avatar },//yes
+    { name: "Josuva ", image: Avatar },//yes
+    { name: "Arunika", image: Avatar },//yes
+    { name: "Kathirvelan", image: Avatar },//yes
+    { name: "Deepika", image: Avatar },//yes
+    { name: "Yugeshkumar", image: Avatar },//yes
+    { name: "Veera Muthu Prakash", image: Avatar },//yes
     { name: "Karthic L", image: Avatar },//yes
     { name: "Dhanushkodi", image: Avatar },//yes
     { name: "Puspharaj P", image: Avatar },//yes
@@ -18,7 +18,7 @@ const Coordinators1 = [
     { name: "Sangeerthana S", image: Avatar },//yes
     { name: "Athesh K", image: Avatar },//yes
     { name: "Bhoomish R", image: Avatar },//yes
-    { name: "Vaitheeshwaran S", image: Avatar },//yes
+    { name: "Mega Adith", image: Avatar },//yes
     { name: "Logeshwaran L", image: Avatar },//yes
     { name: "Anu M", image: Avatar },//yes
     { name: "Syed Aswan", image: Avatar },//yes

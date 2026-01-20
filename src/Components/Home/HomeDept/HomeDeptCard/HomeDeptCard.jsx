@@ -8,108 +8,66 @@ import { Link } from "react-router-dom";
 
 const HomeDeptCard = () => {
   const [dept, setDept] = useState("tech");
+
+  const departments = [
+    { id: "tech", label: "CSE / IT / AI&DS", img: Tech, link: "/event/tech" },
+    { id: "electrical", label: "EEE / ECE", img: Electrial, link: "/event/electrical" },
+    { id: "mech", label: "MECH", img: Mech, link: "/event/mech" },
+    { id: "sh", label: "S&H", img: SH, link: "/event/sh" },
+    { id: "mba", label: "MBA", img: MBA, link: "/event/mba" }
+  ];
+
   return (
-    <div>
+    <div className="w-full max-w-[95%] mx-auto my-10">
+      <div className="flex gap-4 justify-center md:flex-col h-[70vh] md:h-auto">
 
-      <div className=" flex gap-2 justify-center md:flex-col">
+        {departments.map((item) => (
+          <div
+            key={item.id}
+            className={`${dept === item.id ? "w-[40%] md:h-[40vh]" : "w-[12%] md:h-[10vh]"
+              } relative transition-all duration-700 ease-in-out rounded-2xl overflow-hidden md:w-full group shadow-lg hover:shadow-2xl border border-white/20`}
+            onMouseEnter={() => setDept(item.id)}
+          >
+            {/* Background Image with Zoom Effect */}
+            <img
+              src={item.img}
+              alt={`${item.label} Department`}
+              className={`object-cover h-full w-full transition-transform duration-1000 ${dept === item.id ? "scale-110" : "scale-100"}`}
+            />
 
-        {/** Tech */}
-        <div
-          className={`${dept === "tech" ? "w-[30%]" : "w-[8%]"} relative duration-500 h-[65vh]  rounded-[7px] overflow-hidden md:w-full md:h-[25vh]`}
-          onMouseOver={() => { setDept("tech") }}
-        >
-          <img src={Tech} alt="Tech_Departments" className=" object-cover h-full w-full" />
+            {/* Gradient Overlay */}
+            <div className={`absolute inset-0 bg-gradient-to-b from-transparent via-black/40 to-black/80 transition-opacity duration-500 ${dept === item.id ? "opacity-100" : "opacity-70"}`}></div>
 
-           <div className="absolute top-0 left-0 w-full h-full bg-blue-500 bg-opacity-50 rounded-[7px] flex flex-col gap-[5%] justify-center items-center">
-            
-            <p className={`${dept === "tech" ? "" : "rotate-[-90deg] md:rotate-0"} ${dept !== "tech" && "animate-pulse"}  duration-700 text-white font-bold text-[25px] text-center `} >CSE&#160;/&#160;IT&#160;/&#160;AI&DS</p>
+            {/* Active State Content */}
+            <div className={`absolute inset-0 flex flex-col justify-end p-8 pb-12 transition-all duration-700 z-10 ${dept === item.id ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
+              <h3 className="text-white font-black text-[32px] md:text-[24px] uppercase tracking-wider drop-shadow-lg mb-6 leading-tight">
+                <span className="bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent">
+                  {item.label}
+                </span>
+              </h3>
 
-            <Link to={"/event/tech"} className={`${dept === "tech" ? "block" : "hidden"} text-[14px] px-[5%] py-[3%] cursor-pointer rounded-[25px] bg-gradient-to-r from-blue-500 to-green-500 text-white font-bold uppercase hover:shadow-lg`}>
-              <p>View&#160;Events</p>
-            </Link>
+              <Link
+                to={item.link}
+                className="w-fit text-[14px] px-8 py-3 rounded-full bg-white/20 backdrop-blur-md border border-white/40 text-white font-bold uppercase hover:bg-white hover:text-black transition-all duration-300 shadow-lg flex items-center gap-2 group-hover:gap-4"
+              >
+                <span>View Events</span>
+                <span>→</span>
+              </Link>
+            </div>
 
+            {/* Inactive State Vertical Text */}
+            <div className={`absolute inset-0 flex items-center justify-center transition-all duration-500 ${dept === item.id ? "opacity-0 pointer-events-none" : "opacity-100"}`}>
+              <p className="text-white/80 font-bold text-[18px] tracking-[0.5em] uppercase rotate-[-90deg] whitespace-nowrap drop-shadow-md md:rotate-0 md:tracking-normal">
+                {item.label}
+              </p>
+            </div>
+
+            {/* Highlight Border on Active */}
+            <div className={`absolute inset-0 border-2 border-white/0 transition-all duration-500 rounded-2xl pointer-events-none ${dept === item.id ? "border-white/20" : ""}`}></div>
           </div>
-
-        </div>
-
-        {/** Electrical */}
-        <div
-          className={`${dept === "electrical" ? "w-[30%]" : "w-[8%]"} relative duration-500 h-[65vh]  rounded-[7px] overflow-hidden md:w-full md:h-[25vh]`}
-          onMouseOver={() => { setDept("electrical") }}
-        >
-          <img src={Electrial} alt="Electrial_Departments" className=" object-cover h-full w-full" />
-
-           <div className="absolute top-0 left-0 w-full h-full bg-green-400 bg-opacity-50 rounded-[7px] flex flex-col gap-[5%] justify-center items-center">
-
-            <p className={`${dept === "electrical" ? "" : "rotate-[-90deg] md:rotate-0"} ${dept !== "electrical" && "animate-pulse"}  duration-700 text-white font-bold text-[25px] text-center`}>EEE&#160;/&#160;ECE</p>
-
-            <Link to={"/event/electrical"} className={`${dept === "electrical" ? "block" : "hidden"} text-[14px] px-[5%] py-[3%] cursor-pointer rounded-[25px] bg-gradient-to-r from-blue-500 to-green-500 text-white font-bold uppercase hover:shadow-lg`}>
-              <p>View&#160;Events</p>
-            </Link>
-
-          </div>
-
-        </div>
-
-        {/**Mech */}
-        <div
-          className={`${dept === "mech" ? "w-[30%]" : "w-[8%]"} relative duration-500 h-[65vh]  rounded-[7px] overflow-hidden md:w-full md:h-[25vh]`}
-          onMouseOver={() => { setDept("mech") }}
-        >
-          <img src={Mech} alt="Mech_Departments" className=" object-cover h-full w-full" />
-
-           <div className="absolute top-0 left-0 w-full h-full bg-blue-500 bg-opacity-50 rounded-[7px] flex flex-col gap-[5%] justify-center items-center">
-
-            <p className={`${dept === "mech" ? "" : "rotate-[-90deg] md:rotate-0"} ${dept !== "mech" && "animate-pulse"}  duration-700 text-white font-bold text-[25px] text-center`}>MECH</p>
-
-            <Link to={"/event/mech"} className={`${dept === "mech" ? "block" : "hidden"} text-[14px] px-[5%] py-[3%] cursor-pointer rounded-[25px] bg-gradient-to-r from-blue-500 to-green-500 text-white font-bold uppercase hover:shadow-lg`}>
-              <p>View&#160;Events</p>
-            </Link>
-
-          </div>
-
-        </div>
-
-        {/**S&H */}
-        <div
-          className={`${dept === "sh" ? "w-[30%]" : "w-[8%]"} relative duration-500 h-[65vh]  rounded-[7px] overflow-hidden md:w-full md:h-[25vh]`}
-          onMouseOver={() => { setDept("sh") }}
-        >
-          <img src={SH} alt="SH_Departments" className=" object-cover h-full w-full" />
-
-           <div className="absolute top-0 left-0 w-full h-full bg-green-400 bg-opacity-50 rounded-[7px] flex flex-col gap-[5%] justify-center items-center">
-
-            <p className={`${dept === "sh" ? "" : "rotate-[-90deg] md:rotate-0"} ${dept !== "sh" && "animate-pulse"}  duration-700 text-white font-bold text-[25px] text-center`}>S&H</p>
-
-            <Link to={"/event/sh"} className={`${dept === "sh" ? "block" : "hidden"} text-[14px] px-[5%] py-[3%] cursor-pointer rounded-[25px] bg-gradient-to-r from-blue-500 to-green-500 text-white font-bold uppercase hover:shadow-lg`}>
-              <p>View&#160;Events</p>
-            </Link>
-
-          </div>
-
-        </div>
-
-        {/**MBA */}
-        <div
-          className={`${dept === "mba" ? "w-[30%]" : "w-[8%]"} relative duration-500 h-[65vh]  rounded-[7px] overflow-hidden md:w-full md:h-[25vh]`}
-          onMouseOver={() => { setDept("mba") }}
-        >
-          <img src={MBA} alt="MBA_Departments" className=" object-cover h-full w-full" />
-
-          <div className="absolute top-0 left-0 w-full h-full bg-blue-500 bg-opacity-50 rounded-[7px] flex flex-col gap-[5%] justify-center items-center pb-[5%]">
-
-            <p className={`${dept === "mba" ? "" : "rotate-[-90deg] md:rotate-0"} ${dept !== "mba" && "animate-pulse"}  duration-700 text-white font-bold text-[25px] text-center`}>MBA</p>
-
-            <Link to={"/event/mba"} className={`${dept === "mba" ? "block" : "hidden"} text-[14px] px-[5%] py-[3%] cursor-pointer rounded-[25px] bg-gradient-to-r from-blue-500 to-green-500 text-white font-bold uppercase hover:shadow-lg`}>
-              <p>View&#160;Events</p>
-            </Link>
-
-          </div>
-
-        </div>
+        ))}
 
       </div>
-
     </div>
   )
 }
