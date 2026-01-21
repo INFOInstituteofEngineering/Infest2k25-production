@@ -4,7 +4,13 @@ import path from "path"
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  root: "src",
   base: "./",
+  publicDir: "../public",
+  build: {
+    outDir: "../",
+    emptyOutDir: false,
+  },
   plugins: [react()],
   resolve: {
     alias: {
