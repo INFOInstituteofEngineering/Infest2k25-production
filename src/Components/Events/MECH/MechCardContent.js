@@ -10,8 +10,8 @@ import {
 const MechCardContent = [{
         id: 1,
         img: projecpresentation,
-        coordinator: "Mr.Kanagaraj,AP/Mech",
-        studentCoordinator: "P.Suryaprakash 3rd Mech",
+        coordinator: "Mr.P.Varadhraj,AP/Mech",
+        studentCoordinator: "Mr.S. Dharun 3rd Mech,Mr.C. Kishore 3rd Mech",
         mobile: "9488831838",
         stdmobile: "9344410755",
         email: "infest2k26mech@gmail.com",
@@ -39,8 +39,8 @@ const MechCardContent = [{
     {
         id: 2,
         img: paperpresentation,
-        coordinator: "Dr.J.Balasunramani,HOD/Mech",
-        studentCoordinator: "P.Suryaprakash, R.Vishwa",
+        coordinator: "Mr. K. Silambarasan,AP/Mech",
+        studentCoordinator: "N.Dharshan 3rd Mech,R. Jeyasingh 3rd Mech",
         mobile: "9488831838",
         stdmobile: "9344410755",
         email: "infest2k26mech@gmail.com",

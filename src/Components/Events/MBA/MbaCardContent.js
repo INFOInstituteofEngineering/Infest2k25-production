@@ -60,8 +60,8 @@ const MbaCardContent = [
         id: 3,
         img: business_quiz,
         banner: "C:\\Users\\Jithu Saaron\\Documents\\Git Repository\\INFEST-2K25\\src\\assets\\Event\\MBA\\business_quiz.jpg", // Add the banner property
-        coordinator: "Ms.K.Dhanyashalini-AP/MBA",
-        mobile: "93849496224",
+        coordinator: "Mr.S.Kanagaraj-AP/MBA",
+        mobile: "9585444456",
         studentCoordinator: "Karthic.L - Ist MBA",
         email: "infest2k26mab@gmail.com",
         stdmobile: "8438377802",
@@ -85,7 +85,7 @@ const MbaCardContent = [
         studentCoordinator: "Hamshavi.M - Ist MBA",
         email: "infest2k26mba@gmail.com",
         stdmobile: "9790011047",
-        eventTitle: "Adzap",
+        eventTitle: "ADZAP",
         eventDesc: 'The ADZAP event is a contest in which the team is tested upon the basis of convincing capabilities and selling of some really wacky or nonexistent product.',
         rules: [
             "Team of 3–5 members",
@@ -105,7 +105,7 @@ const MbaCardContent = [
         id: 5,
         img: corporate_walk,
         banner: "C:\\Users\\Jithu Saaron\\Documents\\Git Repository\\INFEST-2K25\\src\\assets\\Event\\MBA\\corporate_walk.jpg", // Add the banner property
-        coordinator: "Ms.K.Padmapriya-AP/MBA",
+        coordinator: "Ms.B.Nancy-AP/MBA",
         mobile: "9361573529",
         studentCoordinator: "Deepajothi.G -IInd MBA",
         email: "infest2k26mba@gmail.com",
@@ -133,7 +133,7 @@ criteria: [
         id: 6,
         img: corporate_stall,
         banner: "C:\\Users\\Jithu Saaron\\Documents\\Git Repository\\INFEST-2K25\\src\\assets\\Event\\MBA\\corporate_stall.jpg", // Add the banner property
-        coordinator: "Ms.K.Padmapriya-AP/MBA",
+        coordinator: "Dr.S.Sivakumar - AP/MBA",
         mobile: "9361573529",
         studentCoordinator: "Dhanushkodi.S-IInd MBA",
         email: "infest2k26mba@gmail.com",

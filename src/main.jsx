@@ -18,6 +18,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <Home />,
     children: [
       {
         path: "/",
@@ -29,23 +30,23 @@ const router = createBrowserRouter([
         children: [
           {
             path: "/event/tech",
-            element: <TechCard/>,
+            element: <TechCard />,
           },
           {
-            path:"/event/electrical",
-            element:<ElectricalCard/>,
+            path: "/event/electrical",
+            element: <ElectricalCard />,
           },
           {
-            path:"/event/sh",
-            element:<ShCard/>,
+            path: "/event/sh",
+            element: <ShCard />,
           },
           {
-            path:"/event/mech",
-            element:<MechCard/>,
+            path: "/event/mech",
+            element: <MechCard />,
           },
           {
-            path:"/event/mba",
-            element:<MbaCard/>,
+            path: "/event/mba",
+            element: <MbaCard />,
           }
         ]
       },
