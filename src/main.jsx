@@ -14,6 +14,41 @@ import {
 } from "./Components/Events/index.js"
 import Footer from './Components/Footer/Footer.jsx';
 
+// DEBUG: Error Handler
+window.onerror = function (message, source, lineno, colno, error) {
+  const errorDiv = document.createElement('div');
+  errorDiv.style.position = 'fixed';
+  errorDiv.style.top = '0';
+  errorDiv.style.left = '0';
+  errorDiv.style.width = '100vw';
+  errorDiv.style.height = '100vh';
+  errorDiv.style.backgroundColor = '#fff';
+  errorDiv.style.color = 'red';
+  errorDiv.style.zIndex = '999999';
+  errorDiv.style.padding = '20px';
+  errorDiv.style.fontSize = '16px';
+  errorDiv.style.whiteSpace = 'pre-wrap';
+  errorDiv.innerHTML = `<h1>Application Error</h1><p>${message}</p><p>${source}:${lineno}:${colno}</p><pre>${error && error.stack}</pre>`;
+  document.body.appendChild(errorDiv);
+};
+
+window.addEventListener('unhandledrejection', function (event) {
+  const errorDiv = document.createElement('div');
+  errorDiv.style.position = 'fixed';
+  errorDiv.style.top = '50%';
+  errorDiv.style.left = '0';
+  errorDiv.style.width = '100vw';
+  errorDiv.style.height = '50vh';
+  errorDiv.style.backgroundColor = '#ffecec';
+  errorDiv.style.color = 'darkred';
+  errorDiv.style.zIndex = '999999';
+  errorDiv.style.padding = '20px';
+  errorDiv.style.fontSize = '16px';
+  errorDiv.style.whiteSpace = 'pre-wrap';
+  errorDiv.innerHTML = `<h1>Promise Rejection</h1><p>${event.reason}</p>`;
+  document.body.appendChild(errorDiv);
+});
+
 const router = createBrowserRouter([
   {
     path: "/",
