@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Home from './Pages/Home/Home.jsx';
 import Event from './Components/Events/Event.jsx';
 import App from './App.jsx';
@@ -14,7 +14,7 @@ import {
 } from "./Components/Events/index.js"
 import Footer from './Components/Footer/Footer.jsx';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
