@@ -46,9 +46,9 @@ const ShCardContent = [
     img: funquiz,
     banner: defaultBanner,
     coordinator: "Mrs. S.Muthulakshmi AP/ S&H Physics",
-    studentCoordinator: "",
+    studentCoordinator: "Ms. R. Bhavadharani Ist Year CSE",
     email: "infest2k26sandh@gmail.com",
-    stdmobile: "6374846331",
+    stdmobile: "8883386812",
     mobile: "9659659193",
     eventTitle: "Fun Quiz",
     eventDesc:
