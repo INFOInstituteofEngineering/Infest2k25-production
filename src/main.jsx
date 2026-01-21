@@ -14,6 +14,10 @@ import {
 } from "./Components/Events/index.js"
 import Footer from './Components/Footer/Footer.jsx';
 
+// DEBUG: Alert
+alert('Application Starting...');
+
+
 // DEBUG: Error Handler
 window.onerror = function (message, source, lineno, colno, error) {
   const errorDiv = document.createElement('div');
