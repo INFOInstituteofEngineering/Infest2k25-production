@@ -72,7 +72,9 @@ const router = createBrowserRouter([
       },
     ]
   },
-]);
+], {
+  basename: "/Infest2k25-production"
+});
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
