@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import NavBar from "./Components/NavBar/NavBar"
+import CardNav from "./Components/NavBar/CardNav"
 import Footer from "./Components/Footer/Footer";
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
   
   return (
     <div>
-      <NavBar scrollToContact={handleScrollToContact}/>
+      <CardNav scrollToContact={handleScrollToContact}/>
       <Outlet/>
       <Footer/>
     </div>

@@ -86,15 +86,15 @@ const MechCardContent = [{
         stdmobile: "9345534829",
         email: "infest2k26mech@gmail.com",
         eventTitle: "Connections",
-        eventDesc: 'A networking session designed to connect symposium participants, encourage idea exchange, and foster future collaboration.',
+        eventDesc: 'In this event, participants will be shown a set of two or more images simultaneously. Your goal is to identify the hidden connection, phrase, compound word, or concept that ties all the images together. ',
         rules: [
-            "Maximum 2 students are allowed to participate for modelling",
-            "30 Mts duration will be provided for completing the assigned task",
-            "Prelims stages may be considered if more number participants is registered",
+            "Open to all registered participants",
+            "The event can be played in teams (e.g., 2  members per team).",
+            "The images will be displayed via [e.g., PowerPoint, Projector]. ",
             " Usage of Phone is restricted"
         ],
         criteria: [
-            " Maximum Completion of task within the duration"
+            " 1.	The team scoring the highest points at the end of the final round will be declared the winner of the event."
         ]
     },
     {

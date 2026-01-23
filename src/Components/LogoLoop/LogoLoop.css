@@ -1,0 +1,169 @@
+/* Gradient heading style */
+.logoloop__heading {
+    background: linear-gradient(90deg, #2196F3 0%, #00C853 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.logoloop {
+    position: relative;
+    overflow: hidden;
+    padding: 60px 0;
+
+    --logoloop-gap: 0px;
+    --logoloop-logoHeight: 120px;
+    --logoloop-duration: 20s;
+}
+
+.logoloop__track {
+    display: flex;
+    width: max-content;
+    will-change: transform;
+    user-select: none;
+    position: relative;
+    z-index: 0;
+    animation: logoloop-scroll var(--logoloop-duration) linear infinite;
+}
+
+.logoloop__track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes logoloop-scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.logoloop__list {
+    display: flex;
+    align-items: center;
+}
+
+.logoloop__item {
+    flex: 0 0 auto;
+    font-size: var(--logoloop-logoHeight);
+    line-height: 1;
+}
+
+.logoloop__node {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.95);
+    transition: all 0.4s ease-out;
+    position: relative;
+}
+
+.logoloop__node:hover {
+    background: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Tooltip styles */
+.logoloop__tooltip {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.logoloop__tooltip::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: transparent transparent #1a1a2e transparent;
+}
+
+.logoloop__node:hover .logoloop__tooltip {
+    opacity: 1;
+    visibility: visible;
+    bottom: -45px;
+}
+
+.logoloop__item img {
+    height: var(--logoloop-logoHeight);
+    width: auto;
+    min-width: 150px;
+    max-width: 250px;
+    display: block;
+    object-fit: contain;
+    image-rendering: -webkit-optimize-contrast;
+    -webkit-user-drag: none;
+    pointer-events: none;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logoloop__item:hover img {
+    transform: scale(1.1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .logoloop__track {
+        transform: translate3d(0, 0, 0) !important;
+        animation: none !important;
+    }
+
+    .logoloop__item img,
+    .logoloop__node {
+        transition: none !important;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .logoloop {
+        --logoloop-logoHeight: 80px;
+        --logoloop-duration: 18s;
+        padding: 40px 0;
+    }
+
+    .logoloop__node {
+        padding: 15px 30px;
+    }
+
+    .logoloop__item img {
+        min-width: 100px;
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logoloop {
+        --logoloop-logoHeight: 60px;
+        --logoloop-duration: 15s;
+        padding: 30px 0;
+    }
+
+    .logoloop__node {
+        padding: 12px 24px;
+    }
+
+    .logoloop__item img {
+        min-width: 80px;
+        max-width: 140px;
+    }
+}

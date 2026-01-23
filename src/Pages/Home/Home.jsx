@@ -1,4 +1,5 @@
-import Coordinators from "../../Components/Coordinators/Coordinators.jsx";
+import Link from '../../Components/NavBar/CardNav.jsx' // Kept this just in case, but actually I should clean up imports properly.
+import LogoLoop from "../../Components/LogoLoop/LogoLoop.jsx";
 import Countdown from "../../Components/Countdown/Countdown.jsx";
 import About from "../../Components/Home/About.jsx";
 import Hero from "../../Components/Home/Hero.jsx"
@@ -13,15 +14,15 @@ const Home = () => {
       footerElement.scrollIntoView({ behavior: 'smooth' });
     }
   };
-  
+
   return (
     <div>
       <div>
-        <Hero  scrollToContact={handleScrollToContact} />
-        <About/>
+        <Hero scrollToContact={handleScrollToContact} />
+        <About />
         <HomeDept />
-        <Countdown/>
-        <Coordinators/>
+        <Countdown />
+        <LogoLoop />
       </div>
     </div>
   )

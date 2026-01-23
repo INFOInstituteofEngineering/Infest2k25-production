@@ -72,7 +72,7 @@ const Footer = () => {
               </div>
               <div>
                 <h1 className=" font-bold">IT</h1>
-                <p className=" text-gray-400">Mr. B. Mega Adhith</p>
+                <p className=" text-gray-400">Mr. B. Mega Adith</p>
                 <Link to={"tel:+916374354188"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 6374354188</Link>
               </div>
               <div>
@@ -109,8 +109,8 @@ const Footer = () => {
           </div>
         </div>
           <div className=" flex flex-col items-center justify-center p-4 gap-3 bg-black border-t-2 border-t-gray-400">
-            <h1 className=" flex items-center gap-2 text-gray-400">Made with <Love className=" text-[#7d1ae0]"/> by <Link to={"http://redefyne.in/"} className=" text-[#7d1ae0]">ReDefyne Labs</Link> For IIE</h1>
-            <p className="  flex items-center gap-2 text-gray-400"><CopyRight/> Copyright <Link to={"http://infoengg.com"} className=" bg-gradient-to-r from-blue-500 via-green-500 to-green-500 bg-clip-text text-transparent">Info Engg.</Link>  All Rights Reserved by CSE & IT Dept of INFO Institute of Engineering.</p>
+            <h1 className=" flex items-center gap-2 text-gray-400">Made with <Love className=" text-[#7d1ae0]"/> For IIE</h1>
+            <p className="  flex items-center gap-2 text-gray-400"><CopyRight/> Copyright <Link to={"http://infoengg.com"} className=" bg-gradient-to-r from-blue-500 via-green-500 to-green-500 bg-clip-text text-transparent">Info Engg.</Link>  All Rights Reserved by IT, AI&DS and CSE  Dept of INFO Institute of Engineering.</p>
           </div>
       </div>
     </div>
