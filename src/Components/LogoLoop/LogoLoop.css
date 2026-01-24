@@ -68,45 +68,27 @@
 }
 
 /* Tooltip styles */
+/* Label styles */
 .logoloop__tooltip {
-    position: absolute;
-    top: -50px;
-    /* Moved to top */
-    left: 50%;
-    transform: translateX(-50%);
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-    color: #ffffff;
-    padding: 10px 16px;
-    border-radius: 8px;
+    display: block;
+    margin-top: 15px;
+    color: #1f2937;
+    /* Dark gray for visibility */
     font-size: 14px;
-    font-weight: 500;
-    white-space: nowrap;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    z-index: 10;
+    font-weight: 700;
+    text-align: center;
+    /* Allow text wrap */
+    white-space: normal;
+    background: transparent;
+    opacity: 1;
+    visibility: visible;
+    box-shadow: none;
+    padding: 0;
+    z-index: 1;
 }
 
 .logoloop__tooltip::before {
-    content: '';
-    position: absolute;
-    bottom: -6px;
-    /* Moved arrow to bottom */
-    left: 50%;
-    transform: translateX(-50%);
-    border-width: 6px 6px 0 6px;
-    /* Triangle points down */
-    border-style: solid;
-    border-color: #16213e transparent transparent transparent;
-    /* Color matches tooltip background */
-}
-
-.logoloop__node:hover .logoloop__tooltip {
-    opacity: 1;
-    visibility: visible;
-    top: -55px;
-    /* Slight lift on hover */
+    display: none;
 }
 
 .logoloop__item img {

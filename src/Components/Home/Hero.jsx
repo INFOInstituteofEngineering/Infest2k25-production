@@ -39,7 +39,7 @@ const Hero = ({ scrollToContact }) => {
                                 className="text-center my-[1.5%] text-[25px] text-green-500 font-bold"
                                 style={NotSelected}
                             >
-                                20th february 2026                            </h1>
+                                20th February 2026                            </h1>
 
                             <div className=" flex flex-row sm:flex-col  justify-evenly items-center mx-auto text-center my-[1%] w-[45%] font-semibold">
                                 <div className=" text-[20px] hover:shadow-lg sm:my-[5%] w-[250px] px-[30px] py-[15px] border-[2px] rounded-[50px] text-white bg-blue-500 border-blue-500 cursor-pointer hover:bg-black transform transition-all duration-300 hover:scale-105">

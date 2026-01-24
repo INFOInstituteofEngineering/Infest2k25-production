@@ -40,7 +40,7 @@ const Footer = () => {
               <div>
                 <h1 className=" font-bold">ECE</h1>
                 <p className=" text-gray-400">Ms. M. Kiruthika Devi - AP/ECE</p>
-                <Link to={"tel:+919629099432"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 9629099432</Link>
+                <Link to={"tel:+918110066352"} className=" flex items-center gap-2 md:justify-center text-gray-400"><Phone/>+91 8110066352</Link>
               </div>
               <div>
                 <h1 className=" font-bold">EEE</h1>
