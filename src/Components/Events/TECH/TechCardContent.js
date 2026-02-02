@@ -62,8 +62,8 @@ const TechCardContent = [{
 {
     id: 3,
     img: googlehunt,
-    coordinator: "A.Saranya AP/CSE, Mrs.R.S.Gayathri AP/AI & DS,Mr. K.Hema AP/IT",
-    studentCoordinator: "Ms. V. Annapoorani  3rd CSE,Ms. E. Deepika  3rd AI&DS,Ms. G. Jayasathika 3rd IT",
+    coordinator: "Mrs. A.Saranya AP/CSE, Mrs.R.S.Gayathri AP/AI & DS,Mrs. K.Hema AP/IT",
+    studentCoordinator: "Ms. V. Annapoorani  3rd CSE,Mr. M. kathirvelan 3rd CSE,Ms. E. Deepika  3rd AI&DS,Ms. G. Jayasathika 3rd IT",
     email: "infest2k26cse@gmail.com",
     stdmobile: "8220320717",
     mobile: "8122299834",
