@@ -23,7 +23,7 @@ const ElectricalCardContent = [{
         "The paper topics can be chosen by your own.",
         "Each team is allocated a total presentation time of 10-15 minutes.",
         "Submissions must be in the form of a POWER POINT PRESENTATION (max 10 slides).",
-        "Students should submit the PPT in email.",
+        "Students should submit the PPT in email.(infest2k26ece@gmail.com)",
 
     ],
     criteria: [

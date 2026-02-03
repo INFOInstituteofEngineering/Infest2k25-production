@@ -20,7 +20,7 @@ const MechCardContent = [{
         rules: [
             "Maximum 4 members per team",
             "The paper topics can be chosen by your own.",
-            "Abstract should be sent 1 week before infest2k24mech@gmail.com)",
+            "Abstract should be sent 1 week before infest2k26mech@gmail.com)",
             "Abstract should not exceed more than 250 words",
             "Abstract should be in the following format :",
             "Title- theme of the paper",
@@ -28,7 +28,7 @@ const MechCardContent = [{
             "Name of the Institute & City.",
             "Each team is allocated a total presentation time of 10-15 minutes.",
             "Submissions must be in the form of a POWER POINT PRESENTATION(max 10 slides)",
-            "Students should submit the PPT before 2 days via mail(infest2k24mech@gmail.com)"
+            "Students should submit the PPT before 2 days via mail(infest2k26mech@gmail.com)"
         ],
         criteria: [
             "Problem identification and solutions to real time problems.",

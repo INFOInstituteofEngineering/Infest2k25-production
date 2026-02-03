@@ -23,7 +23,7 @@ const MbaCardContent = [
         rules: [
             " Maximum 2 members per team / Maximum 2 teams from a college.",
             "The paper topics can be chosen by your own.",
-            "Abstract should be sent 1 week before (infest2k24mba@gmail.com)",
+            "Abstract should be sent 1 week before (infest2k26mba@gmail.com)",
             "Abstract should not exceed more than 250 words and Paper should not exceed 15 pages.",
             "Maximum presentation time 8 minutes.",
             "Bring your PowerPoint presentation.",

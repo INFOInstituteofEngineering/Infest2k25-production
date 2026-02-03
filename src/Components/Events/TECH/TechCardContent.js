@@ -22,7 +22,7 @@ const TechCardContent = [{
     rules: [
         "Maximum 4 members per team.",
         "The paper topics can be chosen by your own.",
-        "Abstract should be sent 1 week before (infest2kcse@gmail.com).",
+        "Abstract should be sent 1 week before (infest2k26cse@gmail.com).",
         "Abstract should not exceed more than 250 words and Paper should not exceed 15 pages.",
         "Abstract should be in the given format :",
         "Title- theme of the paper.",
@@ -30,7 +30,7 @@ const TechCardContent = [{
         "Name of the Institute & City.",
         "Each team is allocated a total presentation time of 3 – 5 minutes.",
         "Submissions must be in the form of a POWER POINT PRESENTATION.",
-        "Students should submit the PPT before 2 days via mail(infest2k25cse@gmail.com).",
+        "Students should submit the PPT before 2 days via mail(infest2k26cse@gmail.com).",
     ],
     criteria: [
         "Clarity.",
@@ -51,8 +51,10 @@ const TechCardContent = [{
         "Abstract should be sent 2 days before the event",
         "Maximum 4 members per team .",
         "The Project topics shall be choosen by their own.",
+        "There is only one review round so must complete your project as 90% with working model before the event",
         "Abstract should not exceed more than 250 words and paper should not exceed 15 slides.",
         "A team should present the project upto 8 minutes.",
+        "Abstract should be submitted to infest2k26cse@gmail.com",
     ],
     criteria: [
         "Delivery (Communication skills, confidence, and Proper delivery of content )",
@@ -62,7 +64,7 @@ const TechCardContent = [{
 {
     id: 3,
     img: googlehunt,
-    coordinator: "Mrs. A.Saranya AP/CSE, Mrs.R.S.Gayathri AP/AI & DS,Mrs. K.Hema AP/IT",
+    coordinator: "Mrs. A.Saranya AP/CSE, Mrs.R.S.Gayathri AP/AI & DS,Mrs. K.Hema AP/CSE",
     studentCoordinator: "Ms. V. Annapoorani  3rd CSE,Mr. M. kathirvelan 3rd CSE,Ms. E. Deepika  3rd AI&DS,Ms. G. Jayasathika 3rd IT",
     email: "infest2k26cse@gmail.com",
     stdmobile: "8220320717",
@@ -71,8 +73,8 @@ const TechCardContent = [{
     eventDesc: '"Google Hunt" is a fast-paced competition with two rounds: "Google Search Challenge" and "Google Feats." It is all about being fast and precise with Google search skills',
     rules: [
         "No. of Rounds : 2",
-        "Round 1 is Google Search Challenge and Duration of 25 Minutes.",
-        "Round 2 is Google Feats and Duration of 30 Minutes.",
+        "Round 1 is vivaldi Search Challenge and Duration of 25 Minutes.",
+        "Round 2 i vivaldi Feats and Duration of 30 Minutes.",
         "Round 1 :",
         "As per the participants, teams are separated.",
         "For each team, commonly 15 questions are given and 40sec is given to answer the question.",
@@ -102,7 +104,7 @@ const TechCardContent = [{
     rules: [
         "No. of Rounds : 2",
         "Round 1 is MCQ and Round 2 is Debugging and Problem Solving.",
-        "Round 1 Duration is 20 Mins and Round 2 Duration is 30 Mins.",
+        "Round 1 Duration is 15 Mins and Round 2 Duration is 30 Mins.",
         "Any Programming language is allowed to solve the problems.",
         "All rounds will be conducted in Hackerrank, etc.",
         "Mobile Phone is not allowed.",
@@ -131,17 +133,18 @@ const TechCardContent = [{
         "Round 1: MCQ (Shortlisted participants will be participated in round 2)",
         "Round 2: web page development ",
         "Individual Participants only.",
-        "Switching tabs is prohibited.",
-        "Using of Chatgpt and other Gen 4.AI tools are prohibited.",
+        "AI Tools can be used",
         "Mobile phones are prohibited.",
-        "Required assests for web page will be provided.",
+        "On Spot title",
+        "Environment: VS code only"
     ],
     criteria: [
         "Creativity",
-        "Content Quality",
-        "Colourful look",
+        "Efficiency",
+        "Technical Performance",
         "Attractive design",
-        "Interactivity",
+        "User Experience",
+        "Easy to Navigae"
     ]
 },
 {
@@ -155,20 +158,29 @@ const TechCardContent = [{
     eventTitle: "Gaming",
     eventDesc: "Join us for an exhilarating day where gamers of all levels come together to celebrate their passion for gaming! Test your skills in popular games such as 'Freefire' and 'BGMI'. Prizes await the top players!",
     rules: [
-        "No. of Rounds : 2",
-        "No modded apps are allowed.",
-        "External hacks are prohibited.",
-        "Any form of cheating, hacking or exploting of game bugs is prohibited.",
-        "Players must adhere to game's offical rules and guidelines as specified by the develpoers.",
-        "Voilating the rules will lead to disqualification.",
-        "Plagarism is prohibited.",
-        "Players are required to bring their own devices",
+        "Hacking and mod apks are prohibited",
+        "Violating the rules will led to elimination",
+        "Coordinators decision will be Final ",
+        "MOBILE GAMES",
+        "FREE FIRE:",
+        "1)	Clash Squad (Knockouts) - No Usage of Grenades,No Active Skills ,Unlimited Ammos ",
+        "2)	Battle Royale (Duo,Squad) - No Revival,Limited Ammos" ,
+        "BGMI:",
+        "1)	Team Death Match (Knockouts) - No Rules ",
+        "2)	Battle Royale (Squad) - No Rules",
+        "E-FOOTBALL:",
+        "Tournament Type (Eliminators) , Two Leg Will Be Conducted per match",
+        "PC GAMES",
+        "TEKKEN 8[ARCADE]:",
+        "Lap will be provided , Controller & keyboard should be brought by your own",
+        " RACE ROOM [CAR RACING]:",
+        "Lap will be provided , Controller & keyboard should be brought by your own",
+        "FUN GAMES WILL BE HELD !!",
+        
     ],
     criteria: [
         "The winning palyers will be determined by scores(eg:kills, points,etc.)",
-        "Coding Proficiency.",
-        "Innovation and Optimization.",
-        "Adaptability and Resilence.",
+        
     ]
 },
 {
@@ -207,13 +219,16 @@ const TechCardContent = [{
     stdmobile: "8807044820",
     mobile: "8754214893",
     eventTitle: "Poster Designing",
-    eventDesc: "Join us for an exhilarating day where gamers of all levels come together to celebrate their passion for gaming! Test your skills in popular games such as 'Freefire' and 'BGMI'. Prizes await the top players!",
+    eventDesc: "Put your creativity to the test in this single-round design challenge! We invite participants to create a visually stunning and informative poster based on the Symposium's central theme.",
     rules: [
         "No. of Rounds : 1",
         "The poster must be based on the given theme/topic of the symposium. ",
         "Content should be relevant, creative, and informative. ",
         "Orientation: Will be given on spot",
         "Title, Relevant visuals/illustrations, Relevant visuals/illustrations, Short slogans or key points. ",
+        "Laptop Should be brought by own",
+        "45 Minutes time duration",
+        "Any Tools can be used ",
 
     ],
     criteria: [

@@ -30,7 +30,7 @@ const ShCardContent = [
       "All the participants are required to bring a hardcopy of their paper along with them on the day of event.",
       "The decision of judges will be final.",
       "More than one participants are allowed from one college.",
-      "Kindly mail your abstract, Paper and PPT infest2k25sandh@gmail.com. Difficulties will be addressed through the same email-id.",
+      "Kindly mail your abstract, Paper and PPT infest2k26sandh@gmail.com. Difficulties will be addressed through the same email-id.",
       "TOPICS:1.The effects of social media on human interaction",
       "TOPICS:2.Math behind GPS technology",
       "TOPICS:3.Future source of energy",
