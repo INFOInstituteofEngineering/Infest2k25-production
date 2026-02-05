@@ -3,7 +3,8 @@ import { FaArrowRight as Register } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-import {hoverbottom,
+import {
+  hoverbottom,
   bottomshade,
   topshade,
 } from "../../../assets/index.js";
@@ -25,7 +26,7 @@ const ElectricalCard = () => {
         <div
           key={content.id}
           className="relative z-10 border m-4 rounded-[1px] overflow-hidden h-[50vh] duration-500 bg-cover bg-center w-[40%] sm:w-[93%]"
-          style={{ backgroundImage: `url(${content.img})`}}
+          style={{ backgroundImage: `url(${content.img})` }}
           onMouseOver={() => handleMouseEnter(content.id)}
           onMouseLeave={handleMouseLeave}
         >
@@ -40,18 +41,21 @@ const ElectricalCard = () => {
               <p className="text-white font-normal text-[12px] custom-truncate">
                 {content.eventDesc}
               </p>
-              
+              <p className="text-white font-bold text-[12px]">
+                Venue: {content.venue}
+              </p>
+
               <Link to={`/event/electrical/${content.eventTitle}`} className="text-[13px] text-center flex items-center font-bold  w-[60%] p-3 rounded-[2px] bg-white cursor-pointer hover:bg-transparent hover:border border-gray-500 hover:shadow-lg">
                 About&#160;
                 <Register />
               </Link>
             </div>
-          ) }
+          )}
 
           {
             hovered !== content.id && <div className="flex pt-[20%] justify-center h-full w-full z-40">
-            <h1 className="text-center text-[22px] font-extrabold z-40 text-white">{content.eventTitle}</h1>
-          </div>
+              <h1 className="text-center text-[22px] font-extrabold z-40 text-white">{content.eventTitle}</h1>
+            </div>
           }
 
           {/* Topshade */}

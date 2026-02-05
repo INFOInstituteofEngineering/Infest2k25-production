@@ -19,6 +19,7 @@ const MbaCardContent = [
         email: "infest2k26mba@gmail.com",
         stdmobile: "9361024478",
         eventTitle: "Paper Presentation",
+        venue: "Info Institute of Engineering - B Block - 218",
         eventDesc: "Paper presentation is an event where the participants are required to make a paper about a certain topic and then present it in front of a jury.",
         rules: [
             " Maximum 2 members per team / Maximum 2 teams from a college.",
@@ -43,6 +44,7 @@ const MbaCardContent = [
         email: "infest2k26mba@gmail.com",
         stdmobile: "9566432707",
         eventTitle: "Best Manager",
+        venue: "Info Institute of Engineering - B Block - B325",
         eventDesc: "The aim of this event is to identify the student with the traits of a good manager. It also aims to find out how he demonstrates the skills, knowledge and talents of a good manager. It further tests him on how he uses the strategies to solve the problems",
         rules: [
             "Time Management: Participants must adhere to the time limits for each round.",
@@ -66,6 +68,7 @@ const MbaCardContent = [
         email: "infest2k26mab@gmail.com",
         stdmobile: "8608867918",
         eventTitle: "Business Quiz",
+        venue: "Info Institute of Engineering - B Block - B216",
         eventDesc: "A quiz is a form of game or mind sport in which the players (as individuals or in teams) attempt answer questions correctly. Mainly used in Education and similar fields to measure growth in knowledge, abilities, and / or skill. Questions about B-World (business) is know as Business Quiz, Quizzes are usually scored in point and many quizzes are designed to determine a winner from group of participants.",
         rules: [
             "Team Composition: Each team should consist of 2-3 members from the same organization or institution.",
@@ -86,6 +89,7 @@ const MbaCardContent = [
         email: "infest2k26mba@gmail.com",
         stdmobile: "9677883664",
         eventTitle: "ADZAP",
+        venue: "Info Institute of Engineering - B Block - B324",
         eventDesc: 'The ADZAP event is a contest in which the team is tested upon the basis of convincing capabilities and selling of some really wacky or nonexistent product.',
         rules: [
             "Team of 3–5 members",
@@ -111,23 +115,24 @@ const MbaCardContent = [
         email: "infest2k26mba@gmail.com",
         stdmobile: "8220636347",
         eventTitle: "Corporate Walk",
+        venue: "Info Institute of Engineering - B Block - Seminar Hall(Ground Floor)",
         eventDesc: "A Corporate Walk is a professionally organized walking event designed for business professionals, employees, and corporate teams to promote health, wellness, and team bonding. It often takes place in urban areas, business districts, or scenic parks, encouraging networking, stress relief, and an active lifestyle. These walks may be part of wellness programs, charity initiatives, or team-building activities, fostering a positive work culture and employee engagement.",
-rules: [
-    "Eligibility: Open to employees, corporate teams, and professionals as per event guidelines.",
-    "Registration: All participants must register before the deadline.",
-    "Attire: Formal,Semi-formal or theme based attire as specified as organizers.",
-    "Punctuality: Participants must arrive 15 minutes before the scheduled time.",
-    "Conduct: Professional behavior is expected throughout the event.",
-    "Health and Safety: Participants should inform the organizers of any health concerns.",
-    "Disqualification: Violations of event rules may lead to disqualification.",
-    "Participation: Team participation is encouraged; solo entries are also allowed."
-],
-criteria: [
-    "Team Coordination: Points for synchronized and organized walking.",
-    "Presentation: Professional attire and overall team presentation.",
-    "Punctuality: Timely arrival and adherence to schedule.",
-    "Team Spirit: Positive attitude and team bonding."
-]
+        rules: [
+            "Eligibility: Open to employees, corporate teams, and professionals as per event guidelines.",
+            "Registration: All participants must register before the deadline.",
+            "Attire: Formal,Semi-formal or theme based attire as specified as organizers.",
+            "Punctuality: Participants must arrive 15 minutes before the scheduled time.",
+            "Conduct: Professional behavior is expected throughout the event.",
+            "Health and Safety: Participants should inform the organizers of any health concerns.",
+            "Disqualification: Violations of event rules may lead to disqualification.",
+            "Participation: Team participation is encouraged; solo entries are also allowed."
+        ],
+        criteria: [
+            "Team Coordination: Points for synchronized and organized walking.",
+            "Presentation: Professional attire and overall team presentation.",
+            "Punctuality: Timely arrival and adherence to schedule.",
+            "Team Spirit: Positive attitude and team bonding."
+        ]
     },
     {
         id: 6,
@@ -139,11 +144,14 @@ criteria: [
         email: "infest2k26mba@gmail.com",
         stdmobile: "8438377802",
         eventTitle: "Treasure Hunt ",
+        venue: "Info Institute of Engineering - B Block ",
         eventDesc: "It is a game in which each person or team attempts to be first in finding something that has been given, using written directions or clues.",
         rules: [
-            "Team Composition: 2-5 members per team.",
+            "Team Composition: 6 members per team , 2 Teams from each college",
             "Registration: Teams must register before the event starts; late entries not allowed.",
             "Starting Point: All teams begin from a common starting location.",
+            "The Tresure Hunt consists of 6 Clues hidden in 6 different locations.",
+            "Duration : 45 Minutes with 1 Round"
         ],
         criteria: [
             "Total clues must be handed over to the co-ordinator along with the treasure."

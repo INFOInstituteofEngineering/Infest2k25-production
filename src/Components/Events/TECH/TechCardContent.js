@@ -18,6 +18,7 @@ const TechCardContent = [{
     stdmobile: "9629303987",
     mobile: "9865222182",
     eventTitle: "Paper Presentation",
+    venue: "Info Institute of Engineering",
     eventDesc: "A paper presentation is a formal way of sharing research findings, innovative ideas, or case studies with an audience in academic, professional, or technical settings. It involves presenting a well-researched paper through a structured oral talk, often supported by slides or visual aids. The goal is to communicate key insights effectively, engage the audience, and encourage discussions. ",
     rules: [
         "Maximum 4 members per team.",
@@ -46,6 +47,7 @@ const TechCardContent = [{
     stdmobile: "7200720362",
     mobile: "7708103693",
     eventTitle: "Project Presentation",
+    venue: "Info Institute of Engineering",
     eventDesc: "A project presentation is a structured way of showcasing a project’s objectives, progress, outcomes, and impact to an audience. It is commonly used in academic, business, and technical settings to communicate ideas, problem-solving approaches, and innovations. The presentation typically includes visual aids, such as slides, charts, and prototypes, to enhance understanding and engagement.",
     rules: [
         "Abstract should be sent 2 days before the event",
@@ -70,6 +72,7 @@ const TechCardContent = [{
     stdmobile: "8220320717",
     mobile: "8122299834",
     eventTitle: "Google Hunt",
+    venue: "Info Institute of Engineering",
     eventDesc: '"Google Hunt" is a fast-paced competition with two rounds: "Google Search Challenge" and "Google Feats." It is all about being fast and precise with Google search skills',
     rules: [
         "No. of Rounds : 2",
@@ -100,6 +103,7 @@ const TechCardContent = [{
     stdmobile: "9342770217",
     mobile: "9095125476",
     eventTitle: "Crash Your Code",
+    venue: "Info Institute of Engineering",
     eventDesc: "Crash Your Code is an exciting coding challenge or debugging competition where participants intentionally test, break, or improve their code by identifying vulnerabilities, errors, or inefficiencies. It is designed to enhance problem-solving skills, debugging expertise, and coding efficiency in a fun and competitive environment.     ",
     rules: [
         "No. of Rounds : 2",
@@ -127,6 +131,7 @@ const TechCardContent = [{
     mobile: "9003650974",
     stdmobile: "9344843005",
     eventTitle: "Web Master",
+    venue: "Info Institute of Engineering",
     eventDesc: "Web Master is an event where the participants have to express their web development skills by creating a website with given requirements.",
     rules: [
         "There will be two rounds :",
@@ -156,6 +161,7 @@ const TechCardContent = [{
     stdmobile: "9360249539",
     mobile: "9994160955",
     eventTitle: "Gaming",
+    venue: "Info Institute of Engineering",
     eventDesc: "Join us for an exhilarating day where gamers of all levels come together to celebrate their passion for gaming! Test your skills in popular games such as 'Freefire' and 'BGMI'. Prizes await the top players!",
     rules: [
         "Hacking and mod apks are prohibited",
@@ -164,7 +170,7 @@ const TechCardContent = [{
         "MOBILE GAMES",
         "FREE FIRE:",
         "1)	Clash Squad (Knockouts) - No Usage of Grenades,No Active Skills ,Unlimited Ammos ",
-        "2)	Battle Royale (Duo,Squad) - No Revival,Limited Ammos" ,
+        "2)	Battle Royale (Duo,Squad) - No Revival,Limited Ammos",
         "BGMI:",
         "1)	Team Death Match (Knockouts) - No Rules ",
         "2)	Battle Royale (Squad) - No Rules",
@@ -176,22 +182,23 @@ const TechCardContent = [{
         " RACE ROOM [CAR RACING]:",
         "Lap will be provided , Controller & keyboard should be brought by your own",
         "FUN GAMES WILL BE HELD !!",
-        
+
     ],
     criteria: [
         "The winning palyers will be determined by scores(eg:kills, points,etc.)",
-        
+
     ]
 },
 {
     id: 7,
     img: model,
     coordinator: "Mrs. S Kayalvizhi AP/AI&DS, Mrs. V. Karthika AP/CSE, Mrs. V. Suganthi AP/CSE",
-    studentCoordinator: "Mr. Sai Sabari 3rd CSE, Mr. Kumaresan 3rd AI&DS,Mr. Manikandaprabhu 3rd IT ",
+    studentCoordinator: "Mr. Saisabari 3rd CSE, Mr. Kumaresan 3rd AI&DS,Mr. Prasath 3rd IT ",
     email: "infest2k26cse@gmail.com",
     stdmobile: "6379788245",
     mobile: "8248952283",
     eventTitle: "ML - Model Training",
+    venue: "Info Institute of Engineering",
     eventDesc: "A simple hands-on session where participants learn how to train a machine learning model using basic data and techniques",
     rules: [
         "No. of Rounds : 1",
@@ -200,14 +207,15 @@ const TechCardContent = [{
         "Appropriate ML algorithms must be selected with valid justification.",
         "Candidates must ensure orginallity in code , analyis and report",
         "2 to 3 members are allowed per team.",
-        "Datasets are provided by the organizors.",
+        "Participants will receive the problem statements from the organizers at the venue.",
+        "Duration : 1:30 Hours",
 
     ],
     criteria: [
         "Data preparation ",
         "Training and Optimization",
         "Evaluation & Performance",
-        "Innovation & Creativity",
+        "Result & Presentation",
     ]
 },
 {
@@ -219,6 +227,7 @@ const TechCardContent = [{
     stdmobile: "8807044820",
     mobile: "8754214893",
     eventTitle: "Poster Designing",
+    venue: "Info Institute of Engineering",
     eventDesc: "Put your creativity to the test in this single-round design challenge! We invite participants to create a visually stunning and informative poster based on the Symposium's central theme.",
     rules: [
         "No. of Rounds : 1",

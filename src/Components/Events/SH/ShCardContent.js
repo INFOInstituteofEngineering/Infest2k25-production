@@ -21,6 +21,7 @@ const ShCardContent = [
     stdmobile: "8098997409",
     mobile: "7708203501",
     eventTitle: "Paper Presentation",
+    venue: "Info Institute of Engineering - B Block 119",
     eventDesc:
       "Participants should present their ideas within the given time. The presentation should be in the form of Microsoft Power Point. ",
     rules: [
@@ -51,6 +52,7 @@ const ShCardContent = [
     stdmobile: "8883386812",
     mobile: "9659659193",
     eventTitle: "Fun Quiz",
+    venue: "Info Institute of Engineering - B Block",
     eventDesc:
       "A quiz, often regarded as a mental sport, is a competitive activity where participants, in teams, answer questions accurately to test their knowledge. It serves as a quick and engaging assessment tool to evaluate students' understanding, measure their progress, and enhance their abilities and skills in a fun and interactive way.",
     rules: [
@@ -92,8 +94,9 @@ const ShCardContent = [
     studentCoordinator: "Ms. S. Yazhini Ist Year IT",
     email: "infest2k26sandh@gmail.com",
     stdmobile: "9363235245",
-    mobile:"9489567817",
+    mobile: "9489567817",
     eventTitle: "Pencil Sketch & Painting",
+    venue: "Info Institute of Engineering - C Block Drawing Hall",
     eventDesc:
       "To express their ideas and emotions, with the creation of certain aesthetic qualities, in a two-dimensional visual language.",
     rules: [
@@ -123,6 +126,7 @@ const ShCardContent = [
     stdmobile: "8438818350",
     mobile: "9715142264",
     eventTitle: "Math Puzzles",
+    venue: "Info Institute of Engineering - B Block",
     eventDesc:
       "It will be a multi-round competition where teams will tackle a variety of brain-bending math puzzles and answer rapid-fire math trivia questions. This event will also test their problem-solving skills, teamwork and mathematical prowess.",
     rules: [
@@ -168,6 +172,7 @@ const ShCardContent = [
     stdmobile: "8778446915",
     mobile: "9597551460",
     eventTitle: "Karaoke Singing",
+    venue: "Info Institute of Engineering - B Block - 116",
     eventDesc:
       "A karaoke singing competition is an event where individuals or groups perform popular songs using pre-recorded backing tracks (karaoke) and are judged on their vocal ability, stage presence, and overall performance, competing to win prizes by showcasing their singing talent in a fun and accessible format.",
     rules: [
@@ -199,6 +204,7 @@ const ShCardContent = [
     stdmobile: "9659516157",
     mobile: "7708379796 ",
     eventTitle: "Drama or Mime",
+    venue: "Info Institute of Engineering - B Block ",
     eventDesc:
       "Experience the power of performance in our Drama and Mime Competition! Contestants will compete in two categories: Drama, showcasing acting skills and storytelling through dialogue, and Mime, telling stories through gestures and expressions without words. This event celebrates creativity, imagination, and the art of performance, with judges looking for emotional depth, originality, and audience engagement. Don’t miss out on this captivating showcase of talent",
     rules: [
