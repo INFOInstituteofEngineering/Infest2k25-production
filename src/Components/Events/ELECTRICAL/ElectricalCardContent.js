@@ -17,7 +17,7 @@ const ElectricalCardContent = [{
     stdmobile: "8015017758",
     email: "infest2k26ece@gmail.com",
     eventTitle: "Paper Presentation",
-    venue: "Info Institute of Engineering",
+    venue: "Info Institute of Engineering - B Block B218",
     eventDesc: "A paper presentation is a formal way of sharing research findings, innovative ideas, or case studies with an audience in academic, professional, or technical settings. It involves presenting a well-researched paper through a structured oral talk, often supported by slides or visual aids. The goal is to communicate key insights effectively, engage the audience, and encourage discussions.  ",
     rules: [
         "Maximum 4 members per team are allowed.",
@@ -43,7 +43,7 @@ const ElectricalCardContent = [{
     stdmobile: "9345783506",
     email: "infest2k26ece@gmail.com",
     eventTitle: "Tech Connection",
-    venue: "Info Institute of Engineering",
+    venue: "Info Institute of Engineering - B Block B316",
     eventDesc: " The Technical Connection Event challenges participants to apply their expertise in electrical and electronics engineering through a series of interconnected tasks. Enhance participants' understanding of circuit theory and practical implementation.Develop problem-solving and teamwork skills. Encourage innovation and creativity in electrical engineering projects.Provide hands-on experience in working with electronic components and debugging techniques.",
     rules: [
         "ROUND 1:",
@@ -71,12 +71,12 @@ const ElectricalCardContent = [{
     id: 3,
     img: circuit,
     coordinator: "Mrs.P.Kowsalya AP/ECE, Mrs. K. Bhuvana AP/EEE",
-    studentCoordinator: "Dharshini.R,Naveen kumar",
+    studentCoordinator: "Dharshini.R, Naveen kumar",
     mobile: "9626168777",
     stdmobile: "9360385377",
     email: "infest2k26ece@gmail.com",
     eventTitle: "Circuit Debugging",
-    venue: "Info Institute of Engineering",
+    venue: "Info Institute of Engineering - B Block B316",
     eventDesc: "Circuit Debugging is a technical event where participants, analyze and identify an analog electronic circuit. It tests their troubleshooting skills, circuit knowledge, and problem-solving abilities under time constraints.",
     rules: [
         "Two members per team.",
@@ -114,7 +114,7 @@ const ElectricalCardContent = [{
     stdmobile: "9994956296",
     email: "infest2k26ece@gmail.com",
     eventTitle: "Circuit Designing",
-    venue: "Info Institute of Engineering",
+    venue: "Info Institute of Engineering - B Block B316",
     eventDesc: " Apaper-basedtechnical event where participants design, analyze, and modify electronic circuits within a fixed time, testing their fundamental knowledge and problem-solving skills.",
     rules: [
         "ROUND 1 : Circuit Design Round",
@@ -151,8 +151,8 @@ const ElectricalCardContent = [{
     mobile: "8754057796",
     stdmobile: "8870421077",
     email: "infest2k26ece@gmail.com",
-    eventTitle: "Project Presentation",
-    venue: "Info Institute of Engineering",
+    eventTitle: "Project Presentation ",
+    venue: "Info Institute of Engineering - B Block B110 [EDC LAB]",
     eventDesc: "Project Expo showcases student innovations through two rounds: online prelims and offline finals.Participants present projects, engage with experts, and compete for certificates and prizes. ",
     rules: [
         "ONLINE PRELIMS:",
@@ -180,7 +180,7 @@ const ElectricalCardContent = [{
     stdmobile: "8870380537",
     email: "infest2k26ece@gmail.com",
     eventTitle: "Techical Quiz",
-    venue: "Info Institute of Engineering",
+    venue: "Info Institute of Engineering - B Block B316",
     eventDesc: "Tech Brains is a challenging and engaging technical quiz competition designed to test participants' knowledge in various engineering domains. This event aims to foster a competitive spirit while enhancing problem-solving skills, technical awareness, and innovative thinking. ",
     rules: [
         "ROUND 1:",

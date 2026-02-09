@@ -16,7 +16,7 @@ const MechCardContent = [{
     stdmobile: "8870829410",
     email: "infest2k26mech@gmail.com",
     eventTitle: "Paper Presentation",
-    venue: "Info Institute of Engineering",
+    venue: "Info Institute of Engineering - Drawing Hall 2",
     eventDesc: "Paper presentation is an event where the participants are required to make a paper about a certain topic and then present it in front of a jury. ",
     rules: [
         "Maximum 4 members per team",
@@ -46,7 +46,7 @@ const MechCardContent = [{
     stdmobile: "9791643520",
     email: "infest2k26mech@gmail.com",
     eventTitle: "Project Presentation",
-    venue: "Info Institute of Engineering",
+    venue: "Info Institute of Engineering - C Block C004",
     eventDesc: "Project Presentation is an event where the participants are required to make a project about a certain topic and present infront of a jury.",
     rules: [
         " Maximum 4 members per team",
@@ -68,7 +68,7 @@ const MechCardContent = [{
     email: "infest2k26mech@gmail.com",
     stdmobile: "8610546242",
     eventTitle: "CAD Master",
-    venue: "Info Institute of Engineering",
+    venue: "Info Institute of Engineering - B Block AI&DS LAB (Second Floor)",
     eventDesc: "For this CAD master students will be provided computer with autocad software installed and they should perform the assigned task.",
     rules: [
         "Maximum 2 students are allowed to participate for modelling",
@@ -89,7 +89,7 @@ const MechCardContent = [{
     stdmobile: "9345534829",
     email: "infest2k26mech@gmail.com",
     eventTitle: "Connections",
-    venue: "Info Institute of Engineering",
+    venue: "Info Institute of Engineering - C Block C004",
     eventDesc: 'In this event, participants will be shown a set of two or more images simultaneously. Your goal is to identify the hidden connection, phrase, compound word, or concept that ties all the images together. ',
     rules: [
         "Open to all registered participants",
@@ -110,7 +110,7 @@ const MechCardContent = [{
     stdmobile: "6379830086",
     email: "infest2k26mech@gmail.com",
     eventTitle: "Techniacal Quiz",
-    venue: "Info Institute of Engineering",
+    venue: "Info Institute of Engineering - C Block C004",
     eventDesc: "Water rocketry is a technical event in which students can use their ideas effectively and produce a pressurized water rocket.",
     rules: [
         "Accessories kit should be carried by their own",
@@ -130,7 +130,7 @@ const MechCardContent = [{
     stdmobile: "824810617",
     email: "infest2k26mech@gmail.com",
     eventTitle: "Mr.Mechanic",
-    venue: "Info Institute of Engineering",
+    venue: "Info Institute of Engineering - E Block [MS LAB] ",
     eventDesc: "This event is completely based on technical. Students are asked to identify mechanical components or to assemble the components.",
     rules: [
         "Maximum 2 students are allowed to participate.",

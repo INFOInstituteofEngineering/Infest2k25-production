@@ -32,10 +32,10 @@ const ShCardContent = [
       "The decision of judges will be final.",
       "More than one participants are allowed from one college.",
       "Kindly mail your abstract, Paper and PPT infest2k26sandh@gmail.com. Difficulties will be addressed through the same email-id.",
-      "TOPICS:1.The effects of social media on human interaction",
-      "TOPICS:2.Math behind GPS technology",
+      "TOPICS:1.Social Media's impact on Student Focus",
+      "TOPICS:2.The Math of Viral Social Media Posts",
       "TOPICS:3.Future source of energy",
-      "TOPICS:4.AI for environmental chemistry and sustainability",
+      "TOPICS:4.Future of'Digital Chemistry'",
     ],
     criteria: [
       "Clarity.",
