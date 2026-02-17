@@ -7,6 +7,7 @@ import {
     googlehunt,
     model,
     poster,
+    GDG,
 } from "../../../assets/index.js";
 
 const TechCardContent = [{
@@ -210,6 +211,7 @@ const TechCardContent = [{
         "Candidates must ensure orginallity in code , analyis and report",
         "2 to 3 members are allowed per team.",
         "Participants will receive the problem statements from the organizers at the venue.",
+        "Datasets will be provided by the organizers",
         "Duration : 1:30 Hours",
 
     ],
@@ -249,5 +251,39 @@ const TechCardContent = [{
         "Layout & Organization ",
     ]
 },
+{
+    id: 9,
+    img: GDG,
+    coordinator: "Mrs. P.Sundari AP/IT",
+    studentCoordinator: "Mr. Pushparaj 4rd IT,Ms. R Swetha 3rd IT",
+    email: "infest2k26cse@gmail.com",
+    stdmobile: "6379402573",
+    mobile: "9095125476",
+    eventTitle: "Promptathon",
+    venue: "Info Institute of Engineering",
+    eventDesc: "Promptathon is an interactive AI-based competition designed to evaluate participants’ creativity, prompt engineering skills, and ability to generate accurate outputs using generative AI tools. The event focuses on practical application of prompt design strategies to achieve precise and constraint-driven results. Participants will compete in two rounds conducted within a single session. The competition aims to encourage innovative thinking, technical articulation, and problem-solving using AI systems..",
+    rules: [
+        "All participants must use the same chatbot version: Gemini 1.5 Flash model. ",
+        "Use of any other AI model or tool is not permitted during the competition. ",
+        "Prewritten prompts are strictly not allowed. ",
+        "Participants must create prompts in real-time during the event. ",
+        "Sharing prompts or collaborating with other participants is prohibited. ",
+        "Any form of unfair practice will lead to disqualification.",
+        "Round 1 – Image Recreation:",
+        "Participants will be provided with a randomly generated image. Task: • Recreate the given image using AI image generation tools through effective prompt design." ,
+        " Accuracy and similarity to the original image will determine qualification  for the next round.",
+        "Round 2 – Constraint-Based Prompting Qualified participants will receive a new challenge based on specific constraints.",
+        "Task: Generate outputs strictly following the given conditions and limitations. , Constraints may include style, theme, elements, structure, or restrictions."
+
+    ],
+    criteria: [
+        "Visual similarity",
+        "Prompt clarity and structure",
+        "Detailing and composition ",
+        "Creativity in prompt formulation ",
+        "Output accuracy",
+        "Innovation and clarity",
+    ]
+}
 ];
 export default TechCardContent;

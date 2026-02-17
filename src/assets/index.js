@@ -8,7 +8,7 @@ import googlehunt from "./Event/Tech/google.jpg";
 import webmaster from "./Event/Tech/web.jpg";
 import model from "./Event/Tech/model.jpeg";
 import poster from "./Event/Tech/poster.jpeg";
-
+import GDG from "./Event/Tech/GDG.png";
 
 //MBA Images
 import adzap from "../assets/Event/MBA/adzap.jpg";
@@ -46,4 +46,4 @@ import topshade from "./Event/topshade.png";
 import bottomshade from "./Event/bottomshade.png";
 import hoverbottom from "./Event/hoverbottom.png";
 
-export {paperpresentation,quiz,t_connection,design,techquiz,poster,t_hunt,circuit,paperbanner,business_quiz,bottomshade,corporate_walk,treasure_hunt,corporate_stall,hoverbottom,topshade,projecpresentation,crashcode,game,googlehunt,webmaster,model,best_manager,adzap,cad_master,fun,funquiz,debate,math_puzzles,pencil_sketch,mime,singing,mr_mechanic,water_rocket}
+export {paperpresentation,GDG,quiz,t_connection,design,techquiz,poster,t_hunt,circuit,paperbanner,business_quiz,bottomshade,corporate_walk,treasure_hunt,corporate_stall,hoverbottom,topshade,projecpresentation,crashcode,game,googlehunt,webmaster,model,best_manager,adzap,cad_master,fun,funquiz,debate,math_puzzles,pencil_sketch,mime,singing,mr_mechanic,water_rocket}
