@@ -76,7 +76,7 @@ const ElectricalCardContent = [{
     stdmobile: "9360385377",
     email: "infest2k26ece@gmail.com",
     eventTitle: "Circuit Debugging",
-    venue: "Info Institute of Engineering - B Block B316",
+    venue: "Info Institute of Engineering - B Block B218",
     eventDesc: "Circuit Debugging is a technical event where participants, analyze and identify an analog electronic circuit. It tests their troubleshooting skills, circuit knowledge, and problem-solving abilities under time constraints.",
     rules: [
         "Two members per team.",
