@@ -13,6 +13,7 @@ import {
   ElectricalCard
 } from "./Components/Events/index.js"
 import Footer from './Components/Footer/Footer.jsx';
+import RegistrationClosed from './Components/RegistrationClosed/RegistrationClosed.jsx';
 
 const router = createHashRouter([
   {
@@ -69,6 +70,10 @@ const router = createHashRouter([
       {
         path: "/event/mech/:mechTitle",
         element: <EventDetails />,
+      },
+      {
+        path: "/register",
+        element: <RegistrationClosed />,
       },
     ]
   },
